@@ -1,0 +1,19 @@
+limit description to 1000 chars ---done
+cook needs recipe ---Not needed
+session destroyer timmer: https://www.geeksforgeeks.org/how-to-destroy-session-after-some-time-in-php/
+search functionality
+NOT-REQ : when bill payed destroy session: https://stackoverflow.com/questions/28602173/how-do-i-destroy-a-specific-session-variable-in-php
+on oder create a modal to show price and select quantity ---fail
+create a button to show what user has ordered ---done
+timer for cook
+show all errors 
+restrict user from accessing cook page and vice versa ---done
+total price should be qty X price --- done
+change price with qty --- if possible --fail
+grouping the qty : https://www.w3resource.com/sql/aggregate-functions/sum-with-group-by.php ---done
+error for function in sql query : https://stackoverflow.com/questions/39309859/function-sum-does-not-exist
+session id changes when in same browser, fix it.
+avoiding resubmission of form : https://stackoverflow.com/questions/6320113/how-to-prevent-form-resubmission-when-page-is-refreshed-f5-ctrlr
+change time to date in yr and month ---done
+uploading file to db (images) : https://www.codexworld.com/store-retrieve-image-from-database-mysql-php/
+Handling error of back page : header('Cache-Control: no cache');  session_cache_limiter('private_no_expire');

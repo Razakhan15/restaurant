@@ -1,0 +1,69 @@
+body {
+  background-color: #fff;
+}
+
+.main {
+  margin: 4rem;
+}
+
+img {
+  height: 80vh;
+  width: 40vw;
+}
+
+.upBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.itemInfo {
+  margin-left: 5rem;
+  max-width: 60%;
+}
+
+.name {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.ing {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 800px) {
+  .upBox {
+    display: block;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 50%;
+  }
+  .name {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  .main {
+    margin: 1rem 0;
+  }
+  .itemInfo {
+    margin-left: 3rem;
+  }
+
+  .recp {
+    margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .name {
+    font-size: 2rem;
+  }
+  .ing {
+    font-size: 0.8rem;
+  }
+}

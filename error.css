@@ -1,0 +1,19 @@
+.err {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.err>div{
+    flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 10rem;
+}
+
+@media (max-width: 40rem) {
+  h1 {
+    font-size: 5rem;
+  }
+}

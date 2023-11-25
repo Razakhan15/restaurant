@@ -1,0 +1,45 @@
+table {
+  width: 100%;
+  border-collapse: separate;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+li {
+  list-style: none;
+  width: 4rem;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-y: scroll;
+}
+
+.otMn{
+  overflow-y: scroll;
+  height: 4rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.mainBd{
+  overflow: scroll;
+}
